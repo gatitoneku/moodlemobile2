@@ -12,6 +12,7 @@
     "couldnotloadsectioncontent": "Could not load the section content. Please try again later.",
     "couldnotloadsections": "Could not load the sections. Please try again later.",
     "downloadcourse": "Download course",
+    "downloadedcourse": "Refresh downloaded course",
     "errordownloadingcourse": "Error downloading course.",
     "errordownloadingcoursewithname": "<p>Error downloading course: {{name}}</p><p>{{error}}</p>",
     "errordownloadingsection": "Error downloading section.",

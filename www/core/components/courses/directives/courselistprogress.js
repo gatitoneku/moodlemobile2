@@ -46,6 +46,7 @@ angular.module('mm.core.courses')
             var buttons,
                 obsStatus,
                 downloadText = $translate.instant('mm.course.downloadcourse'),
+                downloadedText = $translate.instant('mm.course.downloadedcourse'),
                 downloadingText = $translate.instant('mm.core.downloading'),
                 downloadButton = {
                     isDownload: true,
@@ -89,6 +90,8 @@ angular.module('mm.core.courses')
 
                     if (icon == 'spinner') {
                         downloadButton.text = downloadingText;
+                    } else if (icon == 'ion-android-refresh') {
+                        downloadButton.text = '<i class="icon ' + icon + '"></i>' + downloadedText;
                     } else {
                         downloadButton.text = '<i class="icon ' + icon + '"></i>' + downloadText;
                     }
